@@ -1,0 +1,37 @@
+
+===========================================================================================================================
+TKINTER :   une bibliothèque qui nous permet de créer des intérfaces graphique avec un esemble de widgets
+
+===========================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------
+1_widget_avec_tkinter.py
+    + objectif = creation des widgets
+    + import module pour la création des widgets
+    + Création de fenêtre app
+    + création 
+        - label
+        - un champs de saisie
+        - ajouter des bouttons
+        - ajouter des chek boutton
+        - ajouter des radiobutton
+        - créer un curseure
+        - créer une liste des éléments 
+    + Pour ajouter une widget il faut : <nom_variable> = <nom_widget>(<widget_parent>, <params>, ...)
+
+--------------------------------------------------------------------------------------------------------------------------
+2_widget_variable_controle.py
+    + objectif : manipulation des variables de widget avec des observateurs 
+    + Ajouter des controleurs sur les variables des widgets ==> manipuller des variable via un observateurs
+        - StringVar() : chaine de caractère [str]
+        - IntVar()    :  nombre entier [int]
+        - DoubleVar() :  nombre flotant [float]
+        - BooleVar()  :  nombre booléen [bool]
+
+--------------------------------------------------------------------------------------------------------------------------
+3_positionnement_widget_dans_interface.py
+    + objectif :  Positionnement et organisation des widget dans une interface 
+    + On va utiliser le widget de cadre qui s'appelle FRAME qui va contenir d'autre widget
+    + on va utiliser des grid (ligne - colone) pour positionner nos widgets
+
+--------------------------------------------------------------------------------------------------------------------------
+4_creation_menu_dans_une_widget.py 
